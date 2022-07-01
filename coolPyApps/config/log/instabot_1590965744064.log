@@ -1,0 +1,14 @@
+2022-02-10 01:04:18,176 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2022-02-10 01:04:18,177 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Daniel\AppData\Roaming\Python\Python310\site-packages\instabot\bot\bot.py
+2022-02-10 01:04:18,178 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2022-02-10 01:04:18,465 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2022-02-10 01:04:18,792 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-02-10 01:04:19,051 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2022-02-10 01:04:19,291 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2022-02-10 01:04:22,314 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2022-02-10 01:04:22,314 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/AXEzh7ZUEhIKxJqbX91Aqn7TUxtvPFG-DrGbzTHDLgrKdm4Rh2l1xsWTJ8il-IGvKIVafg/EMnOzZGPus/","api_path":"/challenge/AXEzh7ZUEhIKxJqbX91Aqn7TUxtvPFG-DrGbzTHDLgrKdm4Rh2l1xsWTJ8il-IGvKIVafg/EMnOzZGPus/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail","error_type":"checkpoint_challenge_required"}'
+2022-02-10 01:04:22,314 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2022-02-10 01:04:22,315 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2022-02-10 01:04:22,316 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2022-02-10 01:04:23,107 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2022-02-10 01:04:23,108 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'luna.jpg' is not uploaded.
